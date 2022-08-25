@@ -19,7 +19,7 @@ import LockOutlinedIcon from "@mui/icons-material/LockOutlined";
 
 const theme = createTheme();
 
-export default function SignIn() {
+export default function SignInForm() {
   const handleSubmit = (event) => {
     event.preventDefault();
     const data = new FormData(event.currentTarget);
@@ -92,7 +92,7 @@ export default function SignIn() {
                 </Link>
               </Grid>
               <Grid item>
-                <Link href="/signUp" variant="body2">
+                <Link href="/" variant="body2">
                   Don't have an account ? Sign Up
                 </Link>
               </Grid>
@@ -104,5 +104,3 @@ export default function SignIn() {
     </ThemeProvider>
   );
 }
-
-// See to add the sx props and configurate the createTheme

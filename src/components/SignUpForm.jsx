@@ -19,7 +19,7 @@ import LockOutlinedIcon from "@mui/icons-material/LockOutlined";
 
 const theme = createTheme();
 
-const SignUp = () => {
+const SignUpForm = () => {
   const handleSubmit = (event) => {
     event.preventDefault();
     const data = new FormData(event.currentTarget);
@@ -115,7 +115,7 @@ const SignUp = () => {
             </Button>
             <Grid container justifyContent="flex-end">
               <Grid item>
-                <Link href="/signIn" variant="body2">
+                <Link href="/sign-in" variant="body2">
                   Already have an account? Sign in
                 </Link>
               </Grid>
@@ -128,4 +128,4 @@ const SignUp = () => {
   );
 };
 
-export default SignUp;
+export default SignUpForm;
