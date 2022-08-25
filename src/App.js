@@ -1,10 +1,11 @@
 import "./App.css";
-import SignIn from "./components/SignIn";
-
+// import { BrowserRouter as Router, Switch, Route } from "react-router-dom";
+import SignUp from "./components/SignUp";
 function App() {
   return (
     <div className="App">
-      <SignIn />
+      {" "}
+      <SignUp />
     </div>
   );
 }
